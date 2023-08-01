@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Brandon_reg;
+    src: url("http://localhost:8888/tourisme/fonts/Brandon_reg.otf");
+}
+
+body {
+    font-family:BonvenoCF;
+} 
+* {
+    font-family: 'Brandon_reg', sans-serif !important;
+    padding:0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style-type: none;
+    list-style: none;
+}
+h1 {
+    font-weight: 800px;
+    font-size: 85px;
+}
+
+nav.ul.li {
+    display:inline-block;
+    padding:5px;
+    margin:5px 10px;
+    list-style: none;
+    font-size: 1.5em;
+
+}
+header{
+    margin : 0px !important;
+}
+
+.hero {
+    background-image: url("https://washington.org/sites/default/files/styles/hero_banner_extra_large_1920_x_985/public/2023-04/hero_summer_kayaks_1.jpg.webp?itok=LbXYzuQP");
+    height:80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    margin : 0px !important;
+
+}
+
+.news {
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    position:relative;
+    height: 350px;
+}
+article.img {
+    position:absolute;
+}
+
+article.ul {
+    
+}
+
+.caption {
+    display :block;
+    position :absolute;
+    padding:10px;
+    width:95%;
+    top: 180px;
+    z-index:30;
+    background-color: #fff;
+}
+
+.caption2 {
+    display :block;
+    position :absolute;
+    padding:10px;
+    width:100%;
+    top: 350px;
+    z-index:30;
+    background-color: #fff;
+    opacity: 0.7;
+    overflow: hidden;
+}
+
+.main {
+    width : 80% !important;
+    margin : 50px 20px 30px 5px;
+}
+.welcom {
+    margin-right: 30px;
+    width:70% !important;
+}
+.image-hero {
+    width:30%;
+}
+
+.boutton{
+    padding : 10px 20px;
+    width:200px;
+    font-size : 14px;
+}
+.item-visit {
+    height:40rem;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : #fff;
+    bottom : 10px;
+    padding : 0px 10px;
+    
+}
+.img1 {
+    background-image: url("http://localhost:8888/tourisme/images/stade.jpeg");
+}
+.img2 {
+    background-image: url("http://localhost:8888/tourisme/images/victoire.jpeg");
+}
+.img3 {
+    background-image: url("http://localhost:8888/tourisme/images/palaisDuPeuple.jpeg");
+}
+.img4 {
+    background-image: url("http://localhost:8888/tourisme/images/wash.jpg");
+}
+.placetovisit > div {
+    flex:1;
+    border-radius: 1rem;
+    transition : all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.placetovisit > div:hover {
+    flex : 5;
+}
+nav.ul {
+    display : flex;
+    flex-direction: row;
+    width : 100px;
+    padding : 8px;
+}
+.t50{
+ width:50% !important;
+
+}
+.visits {
+    margin: 75px 0px;
+    height: 35rem;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 999; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
